@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/thundersvm_generated_kernelmatrix_kernel.cu.obj.cmake.pre-gen
+D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/thundersvm_generated_kernelmatrix_kernel.cu.obj.depend
+D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/thundersvm_generated_smo_kernel.cu.obj.cmake.pre-gen
+D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/thundersvm_generated_smo_kernel.cu.obj.depend
+D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/cmake/thundersvmConfig.cmake.in
+D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/src/thundersvm/CMakeLists.txt
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindCUDA/run_nvcc.cmake
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake

@@ -1,0 +1,7 @@
+mkdir build
+cd build
+cmake .. -DBUILD_SHARED_LIBS=TRUE -DCUDA_TOOLKIT_ROOT_DIR="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2"
+cmake --build .
+cd ..
+
+Visual Studio 16 2019

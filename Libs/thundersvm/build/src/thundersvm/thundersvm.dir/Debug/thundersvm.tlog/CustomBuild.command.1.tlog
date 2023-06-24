@@ -1,0 +1,42 @@
+^D:\CODES\PYTHON\HIERARCHICAL KERNELS IN DEEP KERNEL LEARNING\LIBS\THUNDERSVM\SRC\THUNDERSVM\KERNEL\KERNELMATRIX_KERNEL.CU
+setlocal
+cd "D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=D:\Visual Studio\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/Debug/thundersvm_generated_kernelmatrix_kernel.cu.obj" -D "generated_cubin_file:STRING=D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/Debug/thundersvm_generated_kernelmatrix_kernel.cu.obj.cubin.txt" -P "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/thundersvm_generated_kernelmatrix_kernel.cu.obj.Debug.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODES\PYTHON\HIERARCHICAL KERNELS IN DEEP KERNEL LEARNING\LIBS\THUNDERSVM\SRC\THUNDERSVM\KERNEL\SMO_KERNEL.CU
+setlocal
+cd "D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=D:\Visual Studio\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/Debug/thundersvm_generated_smo_kernel.cu.obj" -D "generated_cubin_file:STRING=D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/Debug/thundersvm_generated_smo_kernel.cu.obj.cubin.txt" -P "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/thundersvm.dir/kernel/thundersvm_generated_smo_kernel.cu.obj.Debug.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODES\PYTHON\HIERARCHICAL KERNELS IN DEEP KERNEL LEARNING\LIBS\THUNDERSVM\SRC\THUNDERSVM\CMAKELISTS.TXT
+setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm" "-BD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build" --check-stamp-file "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

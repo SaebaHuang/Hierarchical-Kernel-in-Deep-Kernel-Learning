@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A15B48FD-A87E-31A2-AEA5-8BBFB76A6105}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>thundersvm-predict</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">thundersvm-predict.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">thundersvm-predict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">thundersvm-predict.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">thundersvm-predict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">thundersvm-predict.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">thundersvm-predict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">thundersvm-predict.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">thundersvm-predict</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;..\..\lib\Debug\thundersvm.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/lib/Debug/thundersvm-predict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/bin/Debug/thundersvm-predict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;NDEBUG;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;NDEBUG;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;..\..\lib\Release\thundersvm.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/lib/Release/thundersvm-predict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/bin/Release/thundersvm-predict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;NDEBUG;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;NDEBUG;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;..\..\lib\MinSizeRel\thundersvm.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/lib/MinSizeRel/thundersvm-predict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/bin/MinSizeRel/thundersvm-predict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;NDEBUG;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MWAITXINTRIN_H_INCLUDED;_FORCE_INLINES;NDEBUG;ELPP_NO_LOG_TO_FILE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;..\..\lib\RelWithDebInfo\thundersvm.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64\cusparse.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/lib/RelWithDebInfo/thundersvm-predict.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/bin/RelWithDebInfo/thundersvm-predict.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/src/thundersvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm" "-BD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build" --check-stamp-file "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\cmake\thundersvmConfig.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindCUDA\run_nvcc.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/src/thundersvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm" "-BD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build" --check-stamp-file "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\cmake\thundersvmConfig.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindCUDA\run_nvcc.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/src/thundersvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm" "-BD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build" --check-stamp-file "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\cmake\thundersvmConfig.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindCUDA\run_nvcc.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/src/thundersvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm" "-BD:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build" --check-stamp-file "D:/Codes/python/Hierarchical Kernels in Deep Kernel Learning/Libs/thundersvm/build/src/thundersvm/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_kernelmatrix_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.cmake.pre-gen;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\thundersvm_generated_smo_kernel.cu.obj.depend;D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\cmake\thundersvmConfig.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindCUDA\run_nvcc.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\thundersvm-predict.cpp" />
+    <None Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include">
+    </None>
+    <None Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\ZERO_CHECK.vcxproj">
+      <Project>{EF97A76D-D211-3D96-9347-07CF7AEDAE09}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\thundersvm.vcxproj">
+      <Project>{EE5E82B6-7812-3918-98CF-A1527E399581}</Project>
+      <Name>thundersvm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

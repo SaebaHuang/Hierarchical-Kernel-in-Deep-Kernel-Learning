@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\thundersvm-predict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\include" />
+    <None Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FE66065-009C-3FFF-BD60-A3113711A183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

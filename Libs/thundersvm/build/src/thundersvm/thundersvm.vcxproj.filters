@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\cmdparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\dataset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\kernelmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\model\nusvc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\model\nusvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\model\oneclass_svc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\model\svc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\model\svmmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\model\svr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\solver\csmosolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\solver\nusmosolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\svm_R_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\svm_interface_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\syncarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\syncmem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\thundersvm-scikit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\util\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\util\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\util\metric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\kernel\kernelmatrix_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\kernel\smo_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\src\thundersvm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\$(Configuration)\thundersvm_generated_kernelmatrix_kernel.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Codes\python\Hierarchical Kernels in Deep Kernel Learning\Libs\thundersvm\build\src\thundersvm\CMakeFiles\thundersvm.dir\kernel\$(Configuration)\thundersvm_generated_smo_kernel.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{371CCDF3-20B0-3BFA-A11A-06C45D4777F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FE66065-009C-3FFF-BD60-A3113711A183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

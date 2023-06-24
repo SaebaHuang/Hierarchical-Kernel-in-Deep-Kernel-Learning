@@ -8,7 +8,7 @@ import os
 from time import strftime
 from utils import logger
 
-dataset_list = ['bodyfat', 'mpg', 'triazines']
+dataset_list = ['bodyfat', 'pyrim', 'triazines']
 
 
 def hierarchical_exp_kernel(given_data, input_data, hyper_lambda, n_layers=0):

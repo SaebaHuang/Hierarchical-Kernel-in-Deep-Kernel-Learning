@@ -19,10 +19,9 @@ def get_dataloader(dataset_name):
         # Moon scatter
         moons=moons_loader,
         # LIBSVM
-        triazines=libsvm_loader,
-        pyrim=libsvm_loader,
         bodyfat=libsvm_loader,
-        mpg=libsvm_loader,
+        pyrim=libsvm_loader,
+        triazines=libsvm_loader,
         # CIFAR-10
         cifar10=cifar10_loader,
         # UCI

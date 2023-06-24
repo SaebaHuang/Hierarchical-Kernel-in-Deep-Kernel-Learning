@@ -3,6 +3,7 @@ This is the implementation of hierarchical kernels in deep kernel learning. The 
 
 ## Prerequisites
 CUDA V10.2
+
 python libs: scikit-learn, torch, torchvision, libsvm-official, matplotlib, numpy.
 
 ## Usage

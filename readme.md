@@ -1,5 +1,5 @@
 # Hierarchical Kernels in Deep Kernel Learning
-This is the code implementations of hierarchical kernels in deep kernel learning (https://www.jmlr.org/papers/v24/23-0538.html). The modified source code of thundersvm is in ./Libs/thundersvm/.
+This is the code implementation of hierarchical kernels in deep kernel learning (https://www.jmlr.org/papers/v24/23-0538.html). The modified source code of thundersvm is in ./Libs/thundersvm/.
 
 ## Prerequisites
 CUDA V10.2
